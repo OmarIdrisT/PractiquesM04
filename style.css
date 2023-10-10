@@ -7,3 +7,6 @@ h1 {
     color: rgb(187, 187, 17);
     text-align: center;
 }
+h2 {
+    flex-direction: row;
+}
