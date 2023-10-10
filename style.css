@@ -7,6 +7,11 @@ h1 {
     color: rgb(187, 187, 17);
     text-align: center;
 }
+figure {
+    width:300px;
+    height:300px;
+    text-align: center;
+}
 div #menu {
     flex-direction: space-around;
     text-align: center;
