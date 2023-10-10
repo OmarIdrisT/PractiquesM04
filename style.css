@@ -10,4 +10,5 @@ h1 {
 #menu {
     flex-direction: space-around;
     text-align: center;
+    background-color: rgb(187, 187, 17);
 }
