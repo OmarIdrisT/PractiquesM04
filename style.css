@@ -2,7 +2,7 @@ header {
     margin: 0%;
     background-color: rgb(38, 163, 212);
 }
-
 h1 {
-    font-color: rgb(187, 187, 17);
+    color: rgb(187, 187, 17);
+    text-align: center;
 }
