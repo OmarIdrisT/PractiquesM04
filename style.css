@@ -8,8 +8,9 @@ h1 {
     text-align: center;
 }
 div#menu {
-    display flex-direction: row;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
     background-color: rgb(187, 187, 17);
 }
 
