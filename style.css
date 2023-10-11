@@ -1,5 +1,4 @@
 header {
-    margin: 0%;
     background-color: rgb(14, 127, 172);
     height: 200px;
 }
@@ -39,4 +38,9 @@ body {
 .Videojuego {
     border-color: rgb(255, 208, 0);
     border-style: dashed;
+    background-color: white;
+}
+.FotoVideojuego {
+    width:400px;
+    height: 300px;
 }
