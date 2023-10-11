@@ -7,13 +7,7 @@ h1 {
     color: rgb(187, 187, 17);
     text-align: center;
 }
-header figure {
-    width:10px;
-    height:10px;
-    text-align: center;
-}
 div #menu {
-    flex-direction: space-around;
-    text-align: center;
+    display flex-direction: space-around
     background-color: rgb(187, 187, 17);
 }
