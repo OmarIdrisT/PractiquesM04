@@ -1,7 +1,7 @@
 header {
     margin: 0%;
     background-color: rgb(38, 163, 212);
-    width: 300;
+    height: 200px;
 }
 h1 {
     color: rgb(187, 187, 17);
@@ -10,10 +10,11 @@ h1 {
 div#menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around;
+    align-items: flex-end;    
     background-color: rgb(187, 187, 17);
-}
+}   
 
-h2#Videojuegostitle {
+h2#VideojuegosTitle {
     color:rgb(14, 204, 211)
 }
