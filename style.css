@@ -22,9 +22,11 @@ h1 {
     color: rgb(11, 91, 240);
 }
 
-#Videojuego {
+.Videojuego {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: nowrap;
+    border: yellow;
 }
