@@ -27,20 +27,22 @@ body {
     color: rgb(1, 13, 20);
 }
 
-#Videojuegos {
-    padding: 1%;
-    margin: 1%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+.Videojuegos {
+    border: 2px;
+    border-style:groove;
+    border-radius: 5px;
+    border-color: #FFC045;
+    justify-content:center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;            
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+    margin: 40px;
+    width: 500px;
 }
-.Videojuego {
-    border-color: rgb(255, 208, 0);
-    border-style: dashed;
-    background-color: white;
 }
 .FotoVideojuego {
-    width:450px;
-    height: 350px;
+    width: 500px;
+    height: 250px;
 }
