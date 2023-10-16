@@ -1,6 +1,8 @@
 header {
     background-color: rgb(14, 127, 172);
     height: 200px;
+    position: fixed;
+    width: 100%;
 }
 h1 {
     color: rgb(219, 219, 8);
@@ -39,6 +41,7 @@ body {
     border-color: #FFC045;
     justify-content:center;
     color: black;
+    background-color: white;
     text-decoration: none;
     display: inline-block;            
     box-shadow: 10px 10px 5px grey;
