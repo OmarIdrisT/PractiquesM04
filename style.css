@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(14, 127, 172);
+    background-color: #0A91AB;
     height: 100px;
     position: fixed;
     width: 100%;
@@ -18,7 +18,7 @@ h1 {
 }   
 .text_menu {
     cursor:pointer;
-    color:rgb(18, 143, 180);
+    color: black;
 }
 body {
     background-color: white;
@@ -26,7 +26,7 @@ body {
 }
 
 h2 {
-    color: rgb(18, 143, 180);
+    color: #0A91AB;
 }
 
 #main {
@@ -35,7 +35,7 @@ h2 {
 #VideojuegosTitle {
     padding:1%;
     margin: 3%;
-    color: rgb(1, 13, 20);
+    color:#0A90AB25;
 }
 
 .Videojuegos {
@@ -51,6 +51,9 @@ h2 {
     box-shadow: 10px 10px 5px grey;
     margin: 40px;
     width: 500px;
+    border-radius: 10px;
+    padding: 6px;
+    
 }
 h3 {
     color:#FFC045;
@@ -60,6 +63,8 @@ h3 {
 .imagenes {
     width: 500px;
     height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .videojuego_info {
@@ -67,14 +72,13 @@ h3 {
     border-style:solid;
     background-color: #FFC045;
     display: flex;
-    justify-content: center;
     border-radius: 25px;
     width: 60px;
     height: 30px;
-    align-content: end;
     cursor: pointer;
     align-items: center;
-
-
-
+    margin-bottom: 1%;
+    justify-content: center;
+    justify-items: center;
 }
+
