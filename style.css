@@ -4,45 +4,64 @@ header {
     position: fixed;
     width: 100%;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-    
 }
+
 h1 {
     color: #FFC045;
     text-align: center;
     padding: 0%;
     justify-content: center;
 }
+
 #menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;  
+    justify-content: center;
     background-color: #FFC045; 
     height: 50px;
     margin-top:100px;
     position:sticky;
 }   
 
+body {
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
+
 .text_menu {
     cursor:pointer;
+    font-weight: bold;
     color: black;
-    pointer-events:visiblePainted #0A91AB;
     align-items: center;
     margin-top: 1%;
+    margin: 15px;
+    margin-left: 100px;
 }
+
+.text_menu:hover {
+    cursor:pointer;
+    color: #0A91AB;
+    align-items: center;
+    margin-top: 1%;
+    margin: 15px;
+    margin-left: 100px;
+}
+
 body {
     background-color: white;
     margin: 0%;
 }
 
-h2 {
+#apartado_videojuegos {
     color: #0A91AB;
+    padding: 1%;
 }
 
-#article {
+#section {
     display:flex;
-    font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     justify-content: space-between;
+    
 }
+
 #VideojuegosTitle {
     padding:1%;
     margin: 3%;
@@ -61,24 +80,24 @@ h2 {
     box-shadow: 10px 10px 5px grey;        
     margin: 40px;
     width: 500px;
-    align-items: center;
-  
+    align-items: center; 
+    
 }
 
-h3 {
+.titulo_juego {
     color:#FFC045;
     font-style: inherit;
     cursor: pointer;
     padding-left: 3px;
 }
 
-h5 {
+.descripcion_juego {
     padding-left: 5px;
     padding-right: 5px;
     
 }
 
-.imagenes {
+.imagen_juego {
     width: 500px;
     height: 250px;
     border-top-right-radius: 10px;
@@ -89,16 +108,30 @@ h5 {
     border-color: #FFC045;
     border-style:solid;
     background-color: #FFC045;
-    display: flex;
     border-radius: 10px;
-    width: 60px;
-    height: 30px;
+    width: 65px;
+    height: 35px;
+    display:flex;
     cursor: pointer;
     align-items: center;
     margin-bottom: 1%;
     justify-content: center;
-    justify-items: center;
-    margin-left: 430px;
+    margin-left: 425px;
+    font-size:12px;
+    font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
+.videojuego_info:hover {
+    border-color: #a8e7f3;
+    border-style:solid;
+    background-color: #a8e7f3;
+    border-radius: 10px;
+    width: 65px;
+    height: 35px;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 1%;
+    justify-content: center;
+    margin-left: 425px;
 }
 
 .trucos_noticias {
@@ -107,9 +140,10 @@ h5 {
     flex-wrap:wrap;
     margin: 5px;
     justify-content: space-between;
+    
 }
 
-.trucos {
+aside {
     background-color: #a8e7f3;
     border-style: dotted;
     border-radius: 10px;
@@ -117,34 +151,118 @@ h5 {
     height: 800px;
     justify-content: left;
     text-align: center;
-    margin-left: 3%;
+    margin-left:0.5%;
     margin-bottom: 3%;
 }
-
-h4 {
+#titulo_trucos {
+    color: #0A91AB;
+}
+.apartado_trucos {
+    border-bottom-color:white;
+    border-bottom-style:double;
+    width:98%;
+    margin-left:4px;
+}
+.trucos_juego {
     color:#FFC045;
 }
 
-.noticias {
-    justify-content: center;
-    text-align: center;
-    margin-left: 30%;
+
+
+#trucos_noticias {
+    display: flex;
     flex-wrap: wrap;
-    border-color: antiquewhite;
-    border-style: dashed;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#noticias {
+    width: 63.7%;
+    margin-left: 30px;
+    text-align:center;
+    margin-left: 100px;
+}
+
+#apartado_noticias {
+    color:#0A91AB
+}
+
+#lista_noticias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
 }
 
 .noticia {
-    border: 2px;
-    border-style:ridge;
+    background-color: white;
+    border: 1.5px solid #0A91AB;
+    width: 47%;
+    height: 44%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;   
+    position: relative;
+}
+
+#texto_noticias {
+    justify-content: center;
+}
+
+.titulo_noticia {
+    text-align: left;
+    color: #FFC045;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.fecha_noticia {
+    font-weight: bold;
+}
+
+.resumen_noticia {
+    font-size: 10px;
+    padding: 2.5%;
+    line-height: 1.5;
+}
+
+.boton_noticia {
+    position: absolute;
+    bottom: 136px;
+    right: 0;
+    border-color: #FFC045;
+    border-style:solid;
+    background-color: #FFC045;
     border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    display:flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-left: 425px;
+    font-size:12px;
+    font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
+.boton_noticia:hover {
+    position: absolute;
+    bottom: 136px;
+    right: 0;
     border-color: #a8e7f3;
-    justify-content:center;
-    text-decoration: none;
-    display: inline-block;          
-    margin: 20px;
-    width: 500px;
-    align-items: center;   
+    border-style:solid;
+    background-color: #a8e7f3;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-left: 425px;
 }
 
 .imagen_noticia {
@@ -154,5 +272,54 @@ h4 {
     border-bottom-right-radius: 10px;
     align-items: flex-end;
 }
+#ranking_title {
+    text-align: center;
+    color: #0A91AB
+}
+.ranking {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top {
+    text-align:center;
+}
 
+.imagen_ranking {
+    border-radius: 150px;
+    border-style: dotted;
+    border-color: #0A91AB;
+    width:150px;
+    height:150px;
+}
 
+.nombre_top {
+    color:#FFC045;
+}
+
+footer {
+    background-color: #847c6f;
+    padding: 1% 14%;
+}
+
+#contacte {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rrss {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-right:30px;
+}
+
+#direccio {
+    text-align: right;
+    font-style: italic;
+    justify-content:end;
+}
+
+#copyright {
+    text-align: center;
+}
