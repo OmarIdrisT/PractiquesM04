@@ -81,7 +81,6 @@ body {
     margin: 40px;
     width: 500px;
     align-items: center; 
-    
 }
 
 .titulo_juego {
@@ -148,7 +147,7 @@ aside {
     border-style: dotted;
     border-radius: 10px;
     width:300px;
-    height: 800px;
+    height: 1150px;
     justify-content: left;
     text-align: center;
     margin-left:0.5%;
@@ -191,19 +190,20 @@ aside {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 600px;
+    height: 900px;
 }
 
 .noticia {
     background-color: white;
     border: 1.5px solid #0A91AB;
     width: 47%;
-    height: 65%;
+    height: 500px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     overflow: hidden;   
     position: relative;
+    margin: 15px;
 }
 
 #texto_noticias {
@@ -231,8 +231,8 @@ aside {
 
 .boton_noticia {
     position: absolute;
-    bottom: 136px;
-    right: 0;
+    bottom: 225px;
+    right: 15px;
     border-color: #FFC045;
     border-style:solid;
     background-color: #FFC045;
@@ -250,8 +250,8 @@ aside {
 }
 .boton_noticia:hover {
     position: absolute;
-    bottom: 136px;
-    right: 0;
+    bottom: 225px;
+    right: 15px;
     border-color: #a8e7f3;
     border-style:solid;
     background-color: #a8e7f3;
@@ -263,14 +263,17 @@ aside {
     justify-content: center;
     margin-bottom: 1%;
     margin-left: 425px;
+    font-size:12px;
+    font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
 }
 
 .imagen_noticia {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 600px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     align-items: flex-end;
+    
 }
 #ranking_title {
     text-align: center;
