@@ -14,6 +14,9 @@ h1 {
     padding: 1%;
     justify-content: center;
 }
+body {
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
 
 #menu {
     display: flex;
@@ -24,10 +27,6 @@ h1 {
     margin-top:0px;
     position:sticky;
 }   
-
-body {
-    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-}
 
 .text_menu {
     cursor:pointer;
@@ -197,8 +196,8 @@ aside {
 
 .noticia {
     background-color: white;
-    border: 1.5px solid #0A91AB;
-    width: 47%;
+    border: 2.5px solid #0A91AB;
+    width: 44%;
     height: 500px;
     border-radius: 5px;
     display: flex;
@@ -210,6 +209,7 @@ aside {
 
 #texto_noticias {
     justify-content: center;
+    height: 200px;
 }
 
 .titulo_noticia {
@@ -217,16 +217,23 @@ aside {
     color: #FFC045;
     font-weight: bold;
     padding-left: 2.5%;
-    padding-top: 2.5%;
     text-align: center;
 }
 
 .fecha_noticia {
     font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+    padding-left: 15px;
+    background: white;
+    border-bottom-color: #FFC045;
+    border-bottom-style:solid;
+    border-bottom-width:10px;
+    
 }
 
 .resumen_noticia {
-    font-size: 10px;
+    font-size: 12px;
     padding: 2.5%;
     line-height: 1.5;
 }
@@ -271,12 +278,12 @@ aside {
 
 .imagen_noticia {
     width: 600px;
-    height: 600px;
+    height: 500px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    align-items: flex-end;
-    
+    align-items: flex-end;  
 }
+
 #ranking_title {
     text-align: center;
     color: #0A91AB
