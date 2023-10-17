@@ -1,15 +1,17 @@
 header {
     background-color: #0A91AB;
     height: 200px;
-    position: fixed;
     width: 100%;
+    position: fixed;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    z-index:1;
+    position:sticky;
 }
 
 h1 {
     color: #FFC045;
     text-align: center;
-    padding: 0%;
+    padding: 1%;
     justify-content: center;
 }
 
@@ -19,7 +21,7 @@ h1 {
     justify-content: center;
     background-color: #FFC045; 
     height: 50px;
-    margin-top:100px;
+    margin-top:0px;
     position:sticky;
 }   
 
