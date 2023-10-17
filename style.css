@@ -1,18 +1,20 @@
-header {
-    background-color: #0A91AB;
-    height: 200px;
-    width: 100%;
-    position: fixed;
-    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-    z-index:1;
-    position:sticky;
+* {
+    margin:0%;
 }
+
+#title {
+    background-color: #0A91AB;
+    height: 250px;
+    width: 100%;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    z-index:1; 
+}
+
 
 h1 {
     color: #FFC045;
     text-align: center;
-    padding: 1%;
-    justify-content: center;
+    padding-top: 2%;
 }
 body {
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
@@ -24,8 +26,9 @@ body {
     justify-content: center;
     background-color: #FFC045; 
     height: 50px;
-    margin-top:0px;
+    width:100%;
     position:sticky;
+    z-index:2;
 }   
 
 .text_menu {
@@ -55,18 +58,13 @@ body {
 #apartado_videojuegos {
     color: #0A91AB;
     padding: 1%;
+    margin-top:20px;
 }
 
 #section {
     display:flex;
     justify-content: space-between;
     
-}
-
-#VideojuegosTitle {
-    padding:1%;
-    margin: 3%;
-    color:#0A90AB25;
 }
 
 .Videojuegos {
@@ -148,7 +146,7 @@ aside {
     border-style: dotted;
     border-radius: 10px;
     width:300px;
-    height: 1150px;
+    height: 1110px;
     justify-content: left;
     text-align: center;
     margin-left:0.5%;
@@ -156,15 +154,24 @@ aside {
 }
 #titulo_trucos {
     color: #0A91AB;
+    margin-bottom: 10%;
 }
 .apartado_trucos {
     border-bottom-color:white;
     border-bottom-style:double;
     width:98%;
     margin-left:4px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .trucos_juego {
     color:#FFC045;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.trucos {
+    margin-bottom: 2%;
+
 }
 
 
@@ -184,7 +191,8 @@ aside {
 }
 
 #apartado_noticias {
-    color:#0A91AB
+    color:#0A91AB;
+    margin-bottom: 2px;
 }
 
 #lista_noticias {
@@ -202,14 +210,9 @@ aside {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;   
-    position: relative;
+    overflow: hidden;
+    position: relative;   
     margin: 15px;
-}
-
-#texto_noticias {
-    justify-content: center;
-    height: 200px;
 }
 
 .titulo_noticia {
@@ -218,6 +221,8 @@ aside {
     font-weight: bold;
     padding-left: 2.5%;
     text-align: center;
+    margin-top: 10px;
+    
 }
 
 .fecha_noticia {
@@ -234,13 +239,16 @@ aside {
 
 .resumen_noticia {
     font-size: 12px;
-    padding: 2.5%;
     line-height: 1.5;
+    margin-left:5px;
+    margin-right:5px;
+    text-align:left;
+    margin-top:30px;
 }
 
 .boton_noticia {
     position: absolute;
-    bottom: 225px;
+    bottom: 250px;
     right: 15px;
     border-color: #FFC045;
     border-style:solid;
@@ -259,7 +267,7 @@ aside {
 }
 .boton_noticia:hover {
     position: absolute;
-    bottom: 225px;
+    bottom: 250px;
     right: 15px;
     border-color: #a8e7f3;
     border-style:solid;
@@ -277,11 +285,12 @@ aside {
 }
 
 .imagen_noticia {
-    width: 600px;
-    height: 500px;
+    width: 560px;
+    height: 340px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     align-items: flex-end;  
+    margin-top:30px;
 }
 
 #ranking_title {
