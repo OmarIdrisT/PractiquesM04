@@ -1,6 +1,9 @@
 * {
     margin:0%;
 }
+header {
+    height: 300px;
+}
 
 #title {
     background-color: #0A91AB;
@@ -16,20 +19,20 @@ h1 {
     text-align: center;
     padding-top: 2%;
 }
-body {
-    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-}
 
 #menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #FFC045; 
-    height: 50px;
+    height:50px;
     width:100%;
     position:sticky;
     z-index:2;
 }   
+body {
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
 
 .text_menu {
     cursor:pointer;
@@ -87,6 +90,7 @@ body {
     font-style: inherit;
     cursor: pointer;
     padding-left: 3px;
+    margin-bottom:5px;
 }
 
 .descripcion_juego {
@@ -154,7 +158,8 @@ aside {
 }
 #titulo_trucos {
     color: #0A91AB;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top:3%;
 }
 .apartado_trucos {
     border-bottom-color:white;
@@ -295,7 +300,8 @@ aside {
 
 #ranking_title {
     text-align: center;
-    color: #0A91AB
+    color: #0A91AB;
+    padding-bottom: 40px;
 }
 .ranking {
     display:flex;
@@ -304,6 +310,7 @@ aside {
 }
 .top {
     text-align:center;
+
 }
 
 .imagen_ranking {
@@ -316,6 +323,10 @@ aside {
 
 .nombre_top {
     color:#FFC045;
+}
+
+.puntuacion_top {
+    margin-bottom: 20px;
 }
 
 footer {
