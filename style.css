@@ -18,6 +18,7 @@ h1 {
     color: #FFC045;
     text-align: center;
     padding-top: 2%;
+    margin-left: 65px;
 }
 #logo {
     display:flex;
