@@ -1,8 +1,9 @@
 * {
     margin:0%;
 }
+
 header {
-    height: 300px;
+    height: 250px;
 }
 
 #title {
@@ -11,6 +12,10 @@ header {
     width: 100%;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     z-index:1; 
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -18,29 +23,25 @@ h1 {
     color: #FFC045;
     text-align: center;
     padding-top: 2%;
-    margin-left: 65px;
 }
+
 #logo {
-    display:flex;
     width:150px;
     height:150px;
-    margin-left: 875px;
-    z-index:1;
-    
-    
+    z-index:1;  
 }
 
 #menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
     background-color: #FFC045; 
     height:40px;
     width:100%;
-    position:sticky;
+    top:0;
     z-index:2;
     align-items: center;
+    position:sticky;
 
 }   
 body {
@@ -73,17 +74,18 @@ body {
     margin: 0%;
 }
 
+#section {
+    display:flex;
+    justify-content: space-between; 
+}
+
 #apartado_videojuegos {
     color: #0A91AB;
     padding: 1%;
     margin-top:20px;
 }
 
-#section {
-    display:flex;
-    justify-content: space-between;
-    
-}
+
 
 .Videojuegos {
     border: 2px;
@@ -97,7 +99,10 @@ body {
     box-shadow: 10px 10px 5px grey;        
     margin: 40px;
     width: 500px;
+    height: 450px;
     align-items: center; 
+    overflow: hidden;
+    position: relative; 
 }
 
 .titulo_juego {
@@ -119,7 +124,8 @@ body {
 .descripcion_juego {
     padding-left: 5px;
     padding-right: 5px;
-    
+    height: 120px;
+     
 }
 
 .imagen_juego {
@@ -127,6 +133,14 @@ body {
     height: 250px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.boton_juego {
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height:45px;
+    margin-right:1%;
 }
 
 .videojuego_info {
@@ -139,12 +153,11 @@ body {
     display:flex;
     cursor: pointer;
     align-items: center;
-    margin-bottom: 1%;
     justify-content: center;
-    margin-left: 425px;
     font-size:12px;
     font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
 }
+
 .videojuego_info:hover {
     border-color: #a8e7f3;
     border-style:solid;
@@ -152,11 +165,12 @@ body {
     border-radius: 10px;
     width: 65px;
     height: 35px;
+    display:flex;
     cursor: pointer;
     align-items: center;
-    margin-bottom: 1%;
     justify-content: center;
-    margin-left: 425px;
+    font-size:12px;
+    font-family:'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
 }
 
 .trucos_noticias {
@@ -199,7 +213,6 @@ aside {
 }
 .trucos {
     margin-bottom: 2%;
-
 }
 
 #trucos_noticias {
@@ -210,15 +223,16 @@ aside {
 }
 
 #noticias {
-    width: 63.7%;
+    width: 66%;
     text-align:center;
-    margin-left: 80px;
+      
 }
 
 #apartado_noticias {
     color:#0A91AB;
     margin-bottom: 2px;
-    margin-left: 250px;
+    text-align:center;
+    width: 122%;
 }
 
 #lista_noticias {
@@ -227,6 +241,7 @@ aside {
     flex-wrap: wrap;
     height: 900px;
     width:120%;
+    position:relative;
 }
 
 .noticia {
@@ -240,6 +255,8 @@ aside {
     overflow: hidden;
     position: relative;   
     margin: 15px;
+    margin-left: 40px;
+    height: 500px;
 }
 
 .titulo_noticia {
@@ -344,7 +361,7 @@ aside {
 }
 .top {
     text-align:center;
-
+    line-height:2;
 }
 
 .imagen_ranking {
