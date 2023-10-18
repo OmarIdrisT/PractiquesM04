@@ -85,7 +85,6 @@ body {
 #apartado_videojuegos {
     color: #0A91AB;
     padding: 1%;
-    margin-top:20px;
 }
 
 
@@ -391,31 +390,33 @@ aside {
 
 footer {
     background-color: #847c6f;
-    padding: 1% 14%;
 }
 
 #contacte {
     display: flex;
+    justify-self: flex-start;
     justify-content: space-between;
-    width:116%;
+    
 }
 
 #rrss {
     display: flex;
     justify-content: space-between;
-    width: 25%;
-    align-self: flex-start;
-
+    width: 20%;
+    padding-left: 2%;
 }
 
 #direccio {
-    display:flex;
     flex-direction:column;
     text-align: right;
     font-style: italic;
     justify-content:flex-end;
+    padding-right: 2%;
 }
 
 #copyright {
-    text-align: center;
+    display:flex;
+    justify-content:center;
+    height:40px;
+    align-items: flex-end;
 }
