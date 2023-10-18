@@ -34,12 +34,14 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
     background-color: #FFC045; 
-    height:50px;
+    height:40px;
     width:100%;
     position:sticky;
     z-index:2;
     align-items: center;
+
 }   
 body {
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
@@ -104,6 +106,14 @@ body {
     cursor: pointer;
     padding-left: 3px;
     margin-bottom:5px;
+}
+.titulo_juego:hover {
+    color:#FFC045;
+    font-style: inherit;
+    cursor: pointer;
+    padding-left: 3px;
+    margin-bottom:5px;
+    text-decoration: underline;
 }
 
 .descripcion_juego {
@@ -239,7 +249,20 @@ aside {
     padding-left: 2.5%;
     text-align: center;
     margin-top: 10px;
+    cursor:pointer;
 }
+
+.titulo_noticia:hover {
+    text-align: left;
+    color: #FFC045;
+    font-weight: bold;
+    padding-left: 2.5%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .fecha_noticia {
     font-weight: bold;
     font-size: 12px;
