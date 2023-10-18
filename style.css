@@ -313,8 +313,8 @@ aside {
 
 .boton_noticia {
     position: absolute;
-    bottom: 280px;
-    right: 15px;
+    bottom: 290px;
+    right: 10px;
     border-color: #FFC045;
     border-style:solid;
     background-color: #FFC045;
@@ -332,8 +332,8 @@ aside {
 }
 .boton_noticia:hover {
     position: absolute;
-    bottom: 280px;
-    right: 15px;
+    bottom: 290px;
+    right: 10px;
     border-color: #a8e7f3;
     border-style:solid;
     background-color: #a8e7f3;
@@ -397,19 +397,23 @@ footer {
 #contacte {
     display: flex;
     justify-content: space-between;
+    width:116%;
 }
 
 #rrss {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    margin-right:30px;
+    width: 25%;
+    align-self: flex-start;
+
 }
 
 #direccio {
+    display:flex;
+    flex-direction:column;
     text-align: right;
     font-style: italic;
-    justify-content:end;
+    justify-content:flex-end;
 }
 
 #copyright {
