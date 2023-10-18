@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
+
 * {
     margin:0%;
 }
@@ -99,7 +102,7 @@ body {
     box-shadow: 10px 10px 5px grey;        
     margin: 40px;
     width: 500px;
-    height: 450px;
+    height: 460px;
     align-items: center; 
     overflow: hidden;
     position: relative; 
@@ -266,7 +269,10 @@ aside {
     padding-left: 2.5%;
     text-align: center;
     margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     cursor:pointer;
+    height: 40px;
 }
 
 .titulo_noticia:hover {
@@ -276,8 +282,11 @@ aside {
     padding-left: 2.5%;
     text-align: center;
     margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     text-decoration: underline;
     cursor: pointer;
+    height: 40px;
 }
 
 .fecha_noticia {
@@ -304,7 +313,7 @@ aside {
 
 .boton_noticia {
     position: absolute;
-    bottom: 240px;
+    bottom: 280px;
     right: 15px;
     border-color: #FFC045;
     border-style:solid;
@@ -323,7 +332,7 @@ aside {
 }
 .boton_noticia:hover {
     position: absolute;
-    bottom: 240px;
+    bottom: 280px;
     right: 15px;
     border-color: #a8e7f3;
     border-style:solid;
@@ -342,11 +351,11 @@ aside {
 
 .imagen_noticia {
     width: 700px;
-    height: 300px;
+    height: 380px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    align-items: flex-end;  
-    margin-top:40px;
+    align-items: flex-end; 
+    margin-top:10px; 
 }
 
 #ranking_title {
