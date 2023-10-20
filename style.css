@@ -432,6 +432,7 @@ aside {
     text-align: center;
     justify-content: center;
     border-style: solid;
+    border-color:#0A91AB;
     border-radius:20px;
     margin-top: 4%;
     margin-left: 15%;
@@ -439,6 +440,7 @@ aside {
 
 .videojuego_lista {
     border-style: solid;
+    border-color:#0A91AB;
     display:flex;
     flex-direction:row;
     height:225px;
@@ -492,5 +494,73 @@ aside {
     margin-bottom: 5px;
     cursor:pointer;
     background-color:#a8e7f3;
+}
+
+#paginacion {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 40%;
+    width: 280px;
+    height: 40px;
+    border-style:solid;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-width:0;
+    border-color:#0A91AB;
+    margin-bottom: 2%;
+}
+
+#pagina_previa {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-style:solid;
+    border-width:1px;
+    border-color:#0A91AB;
+    height:40px;
+    width:40px;
+    text-align:center;
+}
+
+#pagina_actual {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-style:solid;
+    border-width:1px;
+    border-color:#0A91AB;
+    height: 40px;
+    width:40px;
+    text-align:center;
+    background-color:#a8e7f3;
+}
+
+.pagina {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-style:solid;
+    border-width:1px;
+    border-color:#0A91AB;
+    height: 40px;
+    width:40px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.pagina:hover {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#a8e7f3;
+    border-style:solid;
+    border-width:1px;
+    border-color:#0A91AB;
+    height: 40px;
+    width:40px;
+    text-align:center;
+    cursor:pointer;
 }
 
