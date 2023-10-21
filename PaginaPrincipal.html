@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Web</title>
-        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <title>Página Principal</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="images/favicon.ico">
     </head>
     <body>
         <header>
             <div id="title">
-                <h1>Título WEB</h1>
+                <h1>Práctica HTML y CSS</h1>
                 <img id="logo" src="images/logoTOS.png">
             </div>
         </header>
@@ -17,13 +18,13 @@
                 <a class="enlace_text_menu" href="PaginaPrincipal.html">HOME</a>
             </div>
             <div class="text_menu">
-                <a class="enlace_text_menu" href="PaginaPrincipal.html">VIDEOJUEGOS</a>
+                <a class="enlace_text_menu" href="ListadoVideojuegos.html">VIDEOJUEGOS</a>
             </div>
             <div class="text_menu">
-                <a class="enlace_text_menu" href="PaginaPrincipal.html">TIENDA</a>
+                <a class="enlace_text_menu" href="https://store.steampowered.com/?l=spanish">TIENDA</a>
             </div>
             <div class="text_menu">
-                <a class="enlace_text_menu" href="PaginaPrincipal.html">CONTACTO</a>
+                <a class="enlace_text_menu" href="Contacto.html">CONTACTO</a>
             </div>
         </div>
         <section> 
@@ -31,7 +32,9 @@
              <h2 id="apartado_videojuegos">Videojuegos</h2>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/tos.jpg">
-                <h3 class="titulo_juego">Tales of Symphonia</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia">Tales of Symphonia</a>
+                </h3>
                 <h5 class="descripcion_juego">Tales of Symphonia (テイルズ オブ シンフォニア Teiruzu obu Shinfonia?) es un RPG creado por Namco,
                     perteneciente a la saga Tales, muy famosa en Japón. Tales of Symphonia está disponible
                     para GameCube en Japón, Norteamérica y Europa. El juego fue relanzado para la consola PlayStation 2
@@ -39,12 +42,16 @@
                     y el juego puede durar más 100 horas debido a su elaborado argumento...
                 </h5>
                 <div class="boton_juego">
-                    <button class="videojuego_info">Más info</button>
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia">Más info</a>
+                    </button>
                 </div>
             </div>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/skyrim.jpg">
-                <h3 class="titulo_juego">The Elder Scrolls V: Skyrim</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="skyrim.html">The Elder Scrolls V: Skyrim</a>
+                </h3>
                 <h5 class="descripcion_juego">The Elder Scrolls V: Skyrim es un ARPG del tipo mundo abierto desarrollado por Bethesda Game Studios y publicado
                     por Bethesda Softworks. Skyrim es la quinta entrega de la serie The Elder Scrolls de videojuegos de acción y fantasía,
                     y es posterior a The Elder Scrolls IV: Oblivion y predecesor de The Elder Scrolls Online. Skyrim salió a la venta 
@@ -53,13 +60,15 @@
                 </h5>
                 <div class="boton_juego">
                     <button class="videojuego_info">
-                        <a class="enlace_boton_juego" target="_blank" href=https://store.steampowered.com/agecheck/app/72850/?l>Más info</a>
+                        <a class="enlace_boton_juego" href="skyrim.html">Más info</a>
                     </button>
                 </div>
             </div>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/cybersleuth.jpg">          
-                <h3 class="titulo_juego">Digimon Story: Cyber Sleuth</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/">Digimon Story: Cyber Sleuth</a>
+                </h3>
                 <h5 class="descripcion_juego">Digimon Story: Cyber Sleuth (デジモンストーリー サイバースルゥース Dejimon Sutōrī: Saibā Surwūsu?) es un videojuego RPG
                     de entrenamiento cyberpunk desarrollado por Media.Vision y publicado por Bandai Namco Games para PlayStation Vita y
                     PlayStation 4.
@@ -67,12 +76,16 @@
                     en Europa (excepto España), y en España el 31 de marzo del 2016...
                 </h5>
                 <div class="boton_juego">
-                    <button class="videojuego_info">Más info</button>
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/">Más info</a>
+                    </button>
                 </div>
             </div>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/ori.jpeg">
-                <h3 class="titulo_juego">Ori and the Blind Forest</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/">Ori and the Blind Forest</a>
+                </h3>
                 <h5 class="descripcion_juego">Ori and the Blind Forest es un videojuego de plataforma aventura de un jugador con el
                     estilo de Metroidvania diseñado por Moon Studios, un desarrollador independiente, y publicado
                     por Microsoft Studios. 
@@ -81,26 +94,33 @@
                     en 27 de abril de 2016.
                 </h5>
                 <div class="boton_juego">
-                    <button class="videojuego_info">Más info</button>
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/">Más info</a>
+                    </button>
                 </div>
             </div>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/twilight.jpg">
-                <h3 class="titulo_juego">The Legend of Zelda: Twilight Princess</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess">The Legend of Zelda: Twilight Princess</a>
+                </h3>
                 <h5 class="descripcion_juego">The Legend of Zelda: Twilight Princess (ゼルダの伝説でんせつトワイライトプリンセス Zeruda no Densetsu:
                     Towairaito Purinsesu?, lit. «La Leyenda de Zelda: Princesa del Crepúsculo») es un videojuego de
                     acción-aventura de 2006 desarrollado por la filial EAD y distribuido por Nintendo para las videoconsolas
                     GameCube y Wii (2006). Es el decimotercer lanzamiento de la franquicia The Legend of Zelda
                     y el undécimo juego de su línea principal.
-
                 </h5>
                 <div class="boton_juego">
-                    <button class="videojuego_info">Más info</button>
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess">Más info</a>
+                    </button>
                 </div>
             </div>
             <div class="Videojuegos">
                 <img class="imagen_juego" src="images/Ronaldinho.webp">
-                <h3 class="titulo_juego">Mundial Ronaldinho Soccer 64</h3>
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://es.wikipedia.org/wiki/International_Superstar_Soccer_64">Mundial Ronaldinho Soccer 64</a>
+                </h3>
                 <h5 class="descripcion_juego">El juego cuenta con la modalidad de partido amistoso llamado Open Game. La modalidad international
                     permite al jugador seleccionar un equipo y participar con él en un modo torneo. 
                     La modalidad World League, da la posibilidad de jugar hasta 70 partidos. La modalidad P.K. permite
@@ -108,7 +128,9 @@
                     para que el jugador pueda superar...
                 </h5>
                 <div class="boton_juego">
-                    <button class="videojuego_info">Más info</button>
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://es.wikipedia.org/wiki/International_Superstar_Soccer_64">Más info</a>
+                    </button>
                 </div>
             </div>       
         </section>
@@ -136,40 +158,56 @@
                     <div id="lista_noticias">
                         <div class="noticia">
                             <header class="fecha_noticia">11/10/2023</header>
-                            <h3 href="" class="titulo_noticia">Xbox Game Pass celebra Halloween 2023 por todo lo alto con Dead Space Remake, Jusant y Cities: Skylines II</h3>
+                            <h3 class="titulo_noticia">
+                               <a class="enlace_noticia" href="https://as.com/meristation/noticias/xbox-game-pass-celebra-halloween-2023-por-todo-lo-alto-con-dead-space-remake-jusant-y-cities-skylines-ii-n/">Xbox Game Pass celebra Halloween 2023 por todo lo alto con Dead Space Remake, Jusant y Cities: Skylines II</a> 
+                            </h3>
                             <h5 class="resumen_noticia">Menudo Halloween se van a pasar los suscriptores de Xbox Game Pass. Microsoft ha anunciando ya los juegos que llegarán al servicio a finales de octubre
                                                         y la lista cuenta con Dead Space Space Remake...
                             </h5>
                             <img class="imagen_noticia" src="images/Mando-Xbox-1.webp">
-                            <button class="boton_noticia">Leer más</button>
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://as.com/meristation/noticias/xbox-game-pass-celebra-halloween-2023-por-todo-lo-alto-con-dead-space-remake-jusant-y-cities-skylines-ii-n/">Leer más</a>
+                            </button>
                         </div>
                         <div class="noticia">
                             <header class="fecha_noticia">11/10/2023</header>
-                            <h3 href="" class="titulo_noticia">EA actualiza los juegos que perderán servicios online en los próximos meses</h3>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://www.europapress.es/portaltic/videojuegos/noticia-ea-actualiza-juegos-perderan-servicios-online-proximos-meses-20221018115708.html">EA actualiza los juegos que perderán servicios online en los próximos meses</a>
+                            </h3>
                             <h5 class="resumen_noticia">El videojuego de Electronic Arts (EA) Los Sims 4 ha pasado a ser de descarga gratuïta desde este martes,
                                                         un cambio que la compañía ha acompañado de modificaciones en sus servicios en línea, que afectan...
                             </h5>
                             <img class="imagen_noticia" src="images/EA.jpg">
-                            <button class="boton_noticia">Leer más</button>
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://www.europapress.es/portaltic/videojuegos/noticia-ea-actualiza-juegos-perderan-servicios-online-proximos-meses-20221018115708.html">Leer más</a>
+                            </button>
                         </div>
                         <div class="noticia">
                             <header class="fecha_noticia">11/10/2023</header>
-                            <h3 href="" class="titulo_noticia">Nuevas pistas sugieren que el nuevo juego de Hideo Kojima es Death Stranding 2</h3>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://es-us.finanzas.yahoo.com/noticias/pistas-sugieren-juego-hideo-kojima-123500675.html">Nuevas pistas sugieren que el nuevo juego de Hideo Kojima es Death Stranding 2</a>
+                            </h3>
                             <h5 class="resumen_noticia">A pesar de que sus títulos suelen generar opiniones divididas, Kojima Productions es una de las
                                                         desarrolladoras que más dan de qué hablar. 
                                                         Aunque la compañía aún no ha revelado oficialmente su próximo...
                             </h5>
                             <img class="imagen_noticia" src="images/kojima.webp">
-                            <button class="boton_noticia">Leer más</button>
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://es-us.finanzas.yahoo.com/noticias/pistas-sugieren-juego-hideo-kojima-123500675.html">Leer más</a>
+                            </button>
                         </div>
                         <div class="noticia">
                             <header class="fecha_noticia">11/10/2023</header>
-                            <h3 href="" class="titulo_noticia">Bethesda consideró la idea de convertir Starfield en una secuela de Fallout</h3>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://vandal.elespanol.com/noticia/1350765319/bethesda-considero-la-idea-de-convertir-starfield-en-una-secuela-de-fallout/">Bethesda consideró la idea de convertir Starfield en una secuela de Fallout</a>
+                            </h3>
                             <h5 class="resumen_noticia">Todd Howard, director de Starfield y jefe de Bethesda, revela que en un momento del desarrollo se planteó
                                                         la idea de conectar el juego de exploración espacial con Fallout, pero al final se descartó. ...
                             </h5>
                             <img class="imagen_noticia" src="images/fallout3.jpg">
-                            <button class="boton_noticia">Leer más</button>
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://vandal.elespanol.com/noticia/1350765319/bethesda-considero-la-idea-de-convertir-starfield-en-una-secuela-de-fallout/">Leer más</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -226,7 +264,7 @@
             </div>
         </div>
         <div id="copyright">
-            <h5>Copyright @ 2022 - 2022</h5>
+            <h5>Copyright @ 2022 - 2023</h5>
         </div>
     </footer>
 </html>
