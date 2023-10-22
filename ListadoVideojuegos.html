@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Listado de Videojuegos</title>
+        <title>Página Principal</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="images/favicon.ico">
     </head>
@@ -27,170 +27,229 @@
                 <a class="enlace_text_menu" href="Contacto.html">CONTACTO</a>
             </div>
         </div>
-        <div id="sort_by">
-            <select id="menu_sort_by">
-                <option>Puntuación</option>
-                <option>Alfabéticamente</option>
-                <option>Fecha de lanzamiento</option>
-            </select>
-        </div>
-        <div id="lista_videojuegos">
-            <div class="videojuego_lista">
-                <img class="imagen_videojuego_lista" src="images/tlo.jpg">
-                <div class="texto_videojuego_lista">
-                    <h3 class="titulo_videojuego_lista">
-                        <a class="enlace_titulo_videojuego_lista" href="https://es.wikipedia.org/wiki/The_Last_of_Us">The Last of Us (2013)</a>
-                    </h3>
-                    <h5 class="descripcion_videojuego_lista">
-                        <span class="descripcion_videojuego_lista_apartado">Género:</span> Terror, Acción-Aventura, Disparos en tercera persona
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Plataformas:</span> PlayStation 3, PlayStation 4
-                        <br> 
-                        <span class="descripcion_videojuego_lista_apartado">Modos de juego:</span> Un jugador, Multijugador
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Descripción:</span><br>
-                        La trama describe las vivencias de Joel y Ellie, un par de supervivientes de una pandemia en Estados Unidos que provoca la mutación de los seres humanos en criaturas caníbales.
-                    </h5>
+        <section> 
+            <br>
+             <h2 id="apartado_videojuegos">Videojuegos</h2>
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/tos.jpg">
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia">Tales of Symphonia</a>
+                </h3>
+                <h5 class="descripcion_juego">Tales of Symphonia (テイルズ オブ シンフォニア Teiruzu obu Shinfonia?) es un RPG creado por Namco,
+                    perteneciente a la saga Tales, muy famosa en Japón. Tales of Symphonia está disponible
+                    para GameCube en Japón, Norteamérica y Europa. El juego fue relanzado para la consola PlayStation 2
+                    únicamente en Japón, luego una versión HD para PC (steam). La historia se basa en la mitología nórdica
+                    y el juego puede durar más 100 horas debido a su elaborado argumento...
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia">Más info</a>
+                    </button>
                 </div>
-                <div class="puntuacion_detalles">
-                    <div class="puntuacion">
-                        <h3 class="nota_lista">9.8</h3>
-                    </div>
-                    <div class="boton_mas_detalles">
-                        <button class="mas_detalles">
-                            <a class="enlace_mas_detalles" href="https://es.wikipedia.org/wiki/The_Last_of_Us">Más detalles</a>
-                        </button>
-                    </div>
-                </div>    
             </div>
-            <div class="videojuego_lista">
-                <img class="imagen_videojuego_lista" src="images/skyrim.jpg">
-                <div class="texto_videojuego_lista">
-                    <h3 class="titulo_videojuego_lista">
-                        <a class="enlace_titulo_videojuego_lista" href="Skyrim.html">The Elder Scrolls V: Skyrim (2011)</a>
-                    </h3>
-                    <h5 class="descripcion_videojuego_lista">
-                        <span class="descripcion_videojuego_lista_apartado">Género:</span> ARPG
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Plataformas:</span> Windows, Xbox 360, PlayStation 3, PlayStation 4, Xbox One, Nintendo Switch
-                        <br> 
-                        <span class="descripcion_videojuego_lista_apartado">Modos de juego:</span> Un jugador
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Descripción:</span><br>
-                        La historia de Skyrim se centra en los esfuerzos del personaje, Dovahkiin (sangre de dragón), para derrotar a Alduin, un dragón/dovah que, según la profecía, destruirá el mundo.
-                        La trama está fechada doscientos años después de los sucesos de Oblivion y tiene lugar en la provincia ficticia de Skyrim.
-                        
-                    </h5>
-                </div>    
-                <div class="puntuacion_detalles">
-                    <div class="puntuacion">
-                        <h3 class="nota_lista">9.5</h3>
-                    </div>
-                    <div class="boton_mas_detalles">
-                        <button class="mas_detalles">
-                            <a class="enlace_mas_detalles" href="Skyrim.html">Más detalles</a>
-                        </button>
-                    </div>
-                </div>  
-            </div>            
-            <div class="videojuego_lista">
-                <img class="imagen_videojuego_lista" src="images/mario.jpg">
-                <div class="texto_videojuego_lista">
-                    <h3 class="titulo_videojuego_lista">
-                        <a class="enlace_titulo_videojuego_lista" href="https://es.wikipedia.org/wiki/Super_Mario_Galaxy">Super Mario Galaxy (2007)</a>
-                    </h3>
-                    <h5 class="descripcion_videojuego_lista">
-                        <span class="descripcion_videojuego_lista_apartado">Género:</span> Plataformas
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Plataformas:</span> Wii, Wii U, Nintendo Switch
-                        <br> 
-                        <span class="descripcion_videojuego_lista_apartado">Modos de juego:</span> Un jugador, Multijugador
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Descripción:</span><br>
-                        El argumento se centra en la búsqueda galáctica que Mario y su hermano Luigi deben emprender para conseguir unos objetos llamados «Power Stars», que tienen la capacidad de otorgar energía a un artefacto inmenso llamado Planetarium del cometa,
-                        que funciona como una nave espacial, y cuyo propósito radica en poder llegar hasta el lugar donde se encuentra Bowser, ya que este tiene cautiva a la Princesa Peach.
-                    </h5>
-                </div>    
-                <div class="puntuacion_detalles">
-                    <div class="puntuacion">
-                        <h3 class="nota_lista">8.7</h3>
-                    </div>
-                    <div class="boton_mas_detalles">
-                        <button class="mas_detalles">
-                            <a class="enlace_mas_detalles" href="https://es.wikipedia.org/wiki/Super_Mario_Galaxy">Más detalles</a>
-                        </button>
-                    </div>
-                </div>  
-            </div>            
-            <div class="videojuego_lista">
-                <img class="imagen_videojuego_lista" src="images/blackops2.jpg">
-                <div class="texto_videojuego_lista">
-                    <h3 class="titulo_videojuego_lista">
-                        <a class="enlace_titulo_videojuego_lista" href="https://es.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_II">Call of Duty Black Ops II (2012)</a>
-                    </h3>
-                    <h5 class="descripcion_videojuego_lista">
-                        <span class="descripcion_videojuego_lista_apartado">Género:</span> FPS, Acción, Bélico
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Plataformas:</span> PlayStation 3, Xbox 360, Microsoft Windows, Wii U
-                        <br> 
-                        <span class="descripcion_videojuego_lista_apartado">Modos de juego:</span> Un jugador, Multijugador, Cooperativo
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Descripción:</span><br>
-                        Black Ops II es el primer título de la serie que se establece en un ambiente completamente futurista; a diferencia de sus dos antecesores, Modern Warfare 3 y Black Ops, que se establecían en un futuro cercano y en la Guerra Fría, respectivamente.
-                        La nueva ambientación se ha descrito como una "Guerra Fría del siglo XXI".
-                    </h5>
-                </div>    
-                <div class="puntuacion_detalles">
-                    <div class="puntuacion">
-                        <h3 class="nota_lista">7.8</h3>
-                    </div>
-                    <div class="boton_mas_detalles">
-                        <button class="mas_detalles">
-                            <a class="enlace_mas_detalles" href="https://es.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_II">Más detalles</a>
-                        </button>
-                    </div>
-                </div>  
-            </div>            
-            <div class="videojuego_lista">
-                <img class="imagen_videojuego_lista" src="images/esmeralda.webp">
-                <div class="texto_videojuego_lista">
-                    <h3 class="titulo_videojuego_lista">
-                        <a class="enlace_titulo_videojuego_lista" href="https://es.wikipedia.org/wiki/Pok%C3%A9mon_Rub%C3%AD_y_Pok%C3%A9mon_Zafiro">Pokémon Esmeralda (2004)</a>
-                    </h3>
-                    <h5 class="descripcion_videojuego_lista">
-                        <span class="descripcion_videojuego_lista_apartado">Género:</span> RPG por turnos
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Plataformas:</span> Game Boy Advance
-                        <br> 
-                        <span class="descripcion_videojuego_lista_apartado">Modos de juego:</span> Un jugador, Multijugador
-                        <br>
-                        <span class="descripcion_videojuego_lista_apartado">Descripción:</span><br>
-                        Versión mejorada de las ediciones Zafiro y Rubí, de tercera generación.
-                        
-                    </h5>
-                </div>    
-                <div class="puntuacion_detalles">
-                    <div class="puntuacion">
-                        <h3 class="nota_lista">7.2</h3>
-                    </div>
-                    <div class="boton_mas_detalles">
-                        <button class="mas_detalles">
-                            <a class="enlace_mas_detalles" href="https://es.wikipedia.org/wiki/Pok%C3%A9mon_Rub%C3%AD_y_Pok%C3%A9mon_Zafiro">Más detalles</a>
-                        </button>
-                    </div>
-                </div>  
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/skyrim.jpg">
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="skyrim.html">The Elder Scrolls V: Skyrim</a>
+                </h3>
+                <h5 class="descripcion_juego">The Elder Scrolls V: Skyrim es un ARPG del tipo mundo abierto desarrollado por Bethesda Game Studios y publicado
+                    por Bethesda Softworks. Skyrim es la quinta entrega de la serie The Elder Scrolls de videojuegos de acción y fantasía,
+                    y es posterior a The Elder Scrolls IV: Oblivion y predecesor de The Elder Scrolls Online. Skyrim salió a la venta 
+                    el 11 de noviembre de 2011 para las plataformas: Microsoft Windows, Xbox 360 y PlayStation 3. El 26 de julio de 2012
+                    fueron lanzados...
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="skyrim.html">Más info</a>
+                    </button>
+                </div>
             </div>
-        </div> 
-        <div id="paginacion">
-            <p id="pagina_previa"><</p>
-            <p id="pagina_actual">1</p>
-            <p class="pagina">2</p>
-            <p class="pagina">3</p>
-            <p class="pagina">4</p>
-            <p class="pagina">5</p>
-            <p class="pagina">></p>
-        </div>
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/cybersleuth.jpg">          
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/">Digimon Story: Cyber Sleuth</a>
+                </h3>
+                <h5 class="descripcion_juego">Digimon Story: Cyber Sleuth (デジモンストーリー サイバースルゥース Dejimon Sutōrī: Saibā Surwūsu?) es un videojuego RPG
+                    de entrenamiento cyberpunk desarrollado por Media.Vision y publicado por Bandai Namco Games para PlayStation Vita y
+                    PlayStation 4.
+                    El videojuego fue lanzado en Japón el 12 de marzo de 2015, el 2 de febrero del 2016 en América, el 5 de febrero del 2016
+                    en Europa (excepto España), y en España el 31 de marzo del 2016...
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/">Más info</a>
+                    </button>
+                </div>
+            </div>
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/ori.jpeg">
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/">Ori and the Blind Forest</a>
+                </h3>
+                <h5 class="descripcion_juego">Ori and the Blind Forest es un videojuego de plataforma aventura de un jugador con el
+                    estilo de Metroidvania diseñado por Moon Studios, un desarrollador independiente, y publicado
+                    por Microsoft Studios. 
+                    El juego fue lanzado en 11 de marzo de 2015 y en solo 1 semana llegó al Millón de ventas por Microsoft Windows y Xbox One. 
+                    Una nueva edición Ori and the Blind Forest: Definitive Edition se lanzó por Xbox One en 11 de marzo de 2016, y por Windows
+                    en 27 de abril de 2016.
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/">Más info</a>
+                    </button>
+                </div>
+            </div>
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/twilight.jpg">
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess">The Legend of Zelda: Twilight Princess</a>
+                </h3>
+                <h5 class="descripcion_juego">The Legend of Zelda: Twilight Princess (ゼルダの伝説でんせつトワイライトプリンセス Zeruda no Densetsu:
+                    Towairaito Purinsesu?, lit. «La Leyenda de Zelda: Princesa del Crepúsculo») es un videojuego de
+                    acción-aventura de 2006 desarrollado por la filial EAD y distribuido por Nintendo para las videoconsolas
+                    GameCube y Wii (2006). Es el decimotercer lanzamiento de la franquicia The Legend of Zelda
+                    y el undécimo juego de su línea principal.
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess">Más info</a>
+                    </button>
+                </div>
+            </div>
+            <div class="Videojuegos">
+                <img class="imagen_juego" src="images/Ronaldinho.webp">
+                <h3 class="titulo_juego">
+                    <a class="enlace_titulo_juego_principal" href="https://es.wikipedia.org/wiki/International_Superstar_Soccer_64">Mundial Ronaldinho Soccer 64</a>
+                </h3>
+                <h5 class="descripcion_juego">El juego cuenta con la modalidad de partido amistoso llamado Open Game. La modalidad international
+                    permite al jugador seleccionar un equipo y participar con él en un modo torneo. 
+                    La modalidad World League, da la posibilidad de jugar hasta 70 partidos. La modalidad P.K. permite
+                    al jugador jugar una tanda de penales. El modo Scenario, permite al jugador jugar partidos con pruebas
+                    para que el jugador pueda superar...
+                </h5>
+                <div class="boton_juego">
+                    <button class="videojuego_info">
+                        <a class="enlace_boton_juego" href="https://es.wikipedia.org/wiki/International_Superstar_Soccer_64">Más info</a>
+                    </button>
+                </div>
+            </div>       
+        </section>
+        <section>
+            <div id="trucos_noticias">
+                <aside>
+                    <h2 id="titulo_trucos">Trucos</h2> 
+                    <div class="apartado_trucos">
+                        <h3 class="trucos_juego">GTA V</h3>
+                        <h5 class="trucos">Truco GTA para aparecer barcos: 362-555-O5O</h5>
+                        <h5 class="trucos">Truco GTA para aparecer salud: 402-555-O5O</h5>
+                    </div>
+                    <div class="apartado_trucos">
+                        <h3 class="trucos_juego">The Last of Us 2</h3>
+                        <h5 class="trucos">Guía completa</h5>
+                        <h5 class="trucos">Cómo conseguir todos los trofeos</h5>
+                    </div>
+                    <div class="apartado_trucos">
+                        <h3 class="trucos_juego">Stray</h3>
+                        <h5 class="trucos">Walkthrough</h5>  
+                    </div>             
+                </aside>
+                <div id="noticias">
+                    <h2 id="apartado_noticias">Notícias</h2>
+                    <div id="lista_noticias">
+                        <div class="noticia">
+                            <header class="fecha_noticia">11/10/2023</header>
+                            <h3 class="titulo_noticia">
+                               <a class="enlace_noticia" href="https://as.com/meristation/noticias/xbox-game-pass-celebra-halloween-2023-por-todo-lo-alto-con-dead-space-remake-jusant-y-cities-skylines-ii-n/">Xbox Game Pass celebra Halloween 2023 por todo lo alto con Dead Space Remake, Jusant y Cities: Skylines II</a> 
+                            </h3>
+                            <h5 class="resumen_noticia">Menudo Halloween se van a pasar los suscriptores de Xbox Game Pass. Microsoft ha anunciando ya los juegos que llegarán al servicio a finales de octubre
+                                                        y la lista cuenta con Dead Space Space Remake...
+                            </h5>
+                            <img class="imagen_noticia" src="images/Mando-Xbox-1.webp">
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://as.com/meristation/noticias/xbox-game-pass-celebra-halloween-2023-por-todo-lo-alto-con-dead-space-remake-jusant-y-cities-skylines-ii-n/">Leer más</a>
+                            </button>
+                        </div>
+                        <div class="noticia">
+                            <header class="fecha_noticia">11/10/2023</header>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://www.europapress.es/portaltic/videojuegos/noticia-ea-actualiza-juegos-perderan-servicios-online-proximos-meses-20221018115708.html">EA actualiza los juegos que perderán servicios online en los próximos meses</a>
+                            </h3>
+                            <h5 class="resumen_noticia">El videojuego de Electronic Arts (EA) Los Sims 4 ha pasado a ser de descarga gratuïta desde este martes,
+                                                        un cambio que la compañía ha acompañado de modificaciones en sus servicios en línea, que afectan...
+                            </h5>
+                            <img class="imagen_noticia" src="images/EA.jpg">
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://www.europapress.es/portaltic/videojuegos/noticia-ea-actualiza-juegos-perderan-servicios-online-proximos-meses-20221018115708.html">Leer más</a>
+                            </button>
+                        </div>
+                        <div class="noticia">
+                            <header class="fecha_noticia">11/10/2023</header>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://es-us.finanzas.yahoo.com/noticias/pistas-sugieren-juego-hideo-kojima-123500675.html">Nuevas pistas sugieren que el nuevo juego de Hideo Kojima es Death Stranding 2</a>
+                            </h3>
+                            <h5 class="resumen_noticia">A pesar de que sus títulos suelen generar opiniones divididas, Kojima Productions es una de las
+                                                        desarrolladoras que más dan de qué hablar. 
+                                                        Aunque la compañía aún no ha revelado oficialmente su próximo...
+                            </h5>
+                            <img class="imagen_noticia" src="images/kojima.webp">
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://es-us.finanzas.yahoo.com/noticias/pistas-sugieren-juego-hideo-kojima-123500675.html">Leer más</a>
+                            </button>
+                        </div>
+                        <div class="noticia">
+                            <header class="fecha_noticia">11/10/2023</header>
+                            <h3 class="titulo_noticia">
+                                <a class="enlace_noticia" href="https://vandal.elespanol.com/noticia/1350765319/bethesda-considero-la-idea-de-convertir-starfield-en-una-secuela-de-fallout/">Bethesda consideró la idea de convertir Starfield en una secuela de Fallout</a>
+                            </h3>
+                            <h5 class="resumen_noticia">Todd Howard, director de Starfield y jefe de Bethesda, revela que en un momento del desarrollo se planteó
+                                                        la idea de conectar el juego de exploración espacial con Fallout, pero al final se descartó. ...
+                            </h5>
+                            <img class="imagen_noticia" src="images/fallout3.jpg">
+                            <button class="boton_noticia">
+                                <a class="enlace_boton_juego" href="https://vandal.elespanol.com/noticia/1350765319/bethesda-considero-la-idea-de-convertir-starfield-en-una-secuela-de-fallout/">Leer más</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="ranking_title">Ranking</h2>
+            <div class="ranking">
+                <div class="top">
+                    <img class="imagen_ranking" src="images/rick.jpg">
+                    <h3 class="nombre_top">Rick</h3>
+                    <h5 class="puntuacion_top">Puntuación: 9.8</h5>
+                </div>
+                <div class="top">
+                    <img class="imagen_ranking" src="images/ugandaknuckles.jpg">
+                    <h3 class="nombre_top">UgandaKnuckles</h3>
+                    <h5 class="puntuacion_top">Puntuación: 9.6</h5>
+                </div>
+                <div class="top">
+                    <img class="imagen_ranking" src="images/elbicho.png">
+                    <h3 class="nombre_top">ElBicho</h3>
+                    <h5 class="puntuacion_top">Puntuación: 9.0</h5>
+                </div>
+                <div class="top">
+                    <img class="imagen_ranking" src="images/dripGoku.jpg">
+                    <h3 class="nombre_top">Goku</h3>
+                    <h5 class="puntuacion_top">Puntuación: 8.7</h5>
+                </div>
+                <div class="top">
+                    <img class="imagen_ranking" src="images/kiko.jpg">
+                    <h3 class="nombre_top">Kiko</h3>
+                    <h5 class="puntuacion_top">Puntuación: 5</h5>
+                </div>
+                <div class="top">
+                    <img class="imagen_ranking" src="images/Sad-Frog-meme.webp">
+                    <h3 class="nombre_top">Pepe</h3>
+                    <h5 class="puntuacion_top">Puntuación: 3</h5>
+                </div>
+            </div>
+        </section>
     </body>
+    <br>
     <footer>
         <div id="contacte">
             <div id="rrss">
@@ -208,4 +267,4 @@
             <h5>Copyright @ 2022 - 2023</h5>
         </div>
     </footer>
-</html>        
+</html>
