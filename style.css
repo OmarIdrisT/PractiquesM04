@@ -833,7 +833,7 @@ aside {
 }
 
 #formulario {
-    border-style:solid;
+    border-style: dashed;
     width: 500px;
     height: 500px;
     background-color: #a8e7f3;
@@ -865,12 +865,27 @@ aside {
 }
 
 #campo_formulario_comentario {
-    height: 100px;
-    width: 400px;
     margin-left: 10px;
 }
 
 #formulario_boton {
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    background-color: #FFC045;
+    cursor:pointer;
+    height: 30px;
+    border-color:#FFC045;
+    border-radius: 10px;
+    transition: 0.15s ease-in-out;   
+}
+
+#formulario_boton:hover {
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #FFC045;
+    cursor:pointer;
+    height: 30px;
+    border-color:#FFC045;
+    border-radius:10px;
+    transform:scale(1.2)
 }
