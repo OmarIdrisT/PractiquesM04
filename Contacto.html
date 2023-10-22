@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Listado de Videojuegos</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1>Práctica HTML y CSS</h1>
+                <img id="logo" src="images/logoTOS.png">
+            </div>
+        </header>
+        <nav id="menu">
+            <div class="text_menu">
+                <a class="enlace_text_menu" href="PaginaPrincipal.html">HOME</a>
+            </div>
+            <div class="text_menu">
+                <a class="enlace_text_menu" href="ListadoVideojuegos.html">VIDEOJUEGOS</a>
+            </div>
+            <div class="text_menu">
+                <a class="enlace_text_menu" href="Skyrim.html">DETALLES</a>
+            </div>
+            <div class="text_menu">
+                <a class="enlace_text_menu" href="Contacto.html">CONTACTO</a>
+            </div>
+        </nav>
+        <main>
+            <div id="formulario_contacto">
+                <div id="mapa_contacto">
+                    <h2 id="apartado_contacto">Encuéntranos</h2>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.3454406064234!2d2.1862900000000005!3d41.453422499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bcfdad2100a9%3A0x3c4e7db0a61a83e0!2sInstitut%20Tecnol%C3%B2gic%20de%20Barcelona!5e0!3m2!1sca!2ses!4v1697969867063!5m2!1sca!2ses" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="metodo_contacto">
+                        <img src="images/direccion_icon.png" width="40" height="40">
+                        <p class="metodo_contacto_texto">Carrer d'Aiguablava, 121<br>
+                            Barcelona 08033</p>
+                    </div>
+                    <div class="metodo_contacto">
+                        <img src="images/mobile_icon.png" width="40" height="40">
+                        <p class="metodo_contacto_texto">+34 937 070 020</p>
+                    </div>    
+                </div>
+                <div id="formulario">
+                    <h2 id="titulo_formulario">Contáctanos</h2>
+                    <br>
+                    <form>
+                        <label type="text" class="campo_formulario">Nombre*</label><br>
+                        <input type="text" class="campo_formulario_rellenar" aria-required="true"><br>
+                        <div id="formulario_apellidos">
+                            <div class="formulario_apellido">
+                            <label type="text" class="campo_formulario">Primer Apellido*</label>
+                            <input type="text" class="campo_formulario_rellenar" aria-required="true">
+                            </div>
+                            <div class="formulario_apellido">
+                            <label type="text" class="campo_formulario">Segundo Apellido*</label>
+                            <input type="text" class="campo_formulario_rellenar" aria-required="true">
+                            </div>
+                        </div>
+                        <label type="text" class="campo_formulario">Correo electrónico*</label><br>
+                        <input type="text" class="campo_formulario_rellenar" aria-required="true"><br>
+                        <label type="text" class="campo_formulario">Teléfono de contacto*</label><br>
+                        <input type="text" class="campo_formulario_rellenar" aria-required="true"><br>
+                        <label type="text" class="campo_formulario">¿Quieres dejarnos un comentario?</label><br>
+                        <input type="text" id="campo_formulario_comentario" aria-required="false"><br>
+                        <a><button id="formulario_boton">Enviar</button></a>
+                    </form>
+                </div>
+            </div>
+            <div id="datos_contacto">
+                <div id="dato_contacto">
+
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div id="contacte">
+            <div id="rrss">
+                <h5>FACEBOOK</h5>
+                <h5>TWITTER</h5>
+                <h5>INSTAGRAM</h5>
+                <h5>RSS</h5>
+            </div>
+            <div id="direccio">
+                <h5>Carrer d'Aiguablava 121</h5>
+                <h5>08033 Barcelona</h5>
+            </div>
+        </div>
+        <div id="copyright">
+            <h5>Copyright @ 2022 - 2023</h5>
+        </div>
+    </footer>
+</html>
