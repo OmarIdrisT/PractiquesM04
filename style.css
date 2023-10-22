@@ -662,7 +662,6 @@ aside {
     cursor:pointer;
     text-decoration:none;
     color:black;
-    transition: 0.15s ease-in-out;
 }
 
 .pagina:hover {
@@ -678,7 +677,6 @@ aside {
     text-align:center;
     cursor:pointer;
     color:black;
-    transition:scale(1.1);
 }
 
 /*Sección del CSS correspondiente a la página de detalles de un videojuego*/
