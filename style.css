@@ -660,6 +660,7 @@ aside {
     width:40px;
     text-align:center;
     cursor:pointer;
+    text-decoration:none;
 }
 
 .pagina:hover {
