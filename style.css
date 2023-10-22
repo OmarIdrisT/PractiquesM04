@@ -23,6 +23,7 @@ header {
     transition: 0.5s ease-in-out;
 }
 
+
 h1 {
     color: #FFC045;
     text-align: center;
@@ -46,8 +47,8 @@ h1 {
     z-index:2;
     align-items: center;
     position:sticky;
-}   
 
+}   
 .text_menu {
     cursor:pointer;
     font-weight: bold;
@@ -56,7 +57,8 @@ h1 {
     margin-top: 1%;
     margin: 15px;
     margin-left: 60px;
-    margin-right: 30px;   
+    margin-right: 30px;
+    text-decoration:none;
 }
 
 .text_menu:hover {
@@ -74,7 +76,6 @@ h1 {
     text-decoration:none;
     color:black;
 }
-
 .enlace_text_menu:hover {
     color:#0A91AB;
 }
@@ -86,7 +87,8 @@ footer {
 #contacte {
     display: flex;
     justify-self: flex-start;
-    justify-content: space-between;    
+    justify-content: space-between;
+    
 }
 
 #rrss {
@@ -131,7 +133,7 @@ body {
     padding: 1%;
 }
 
-.Videojuegos {
+.videojuegos {
     border: 2px;
     border-style:dashed;
     border-radius: 10px;
@@ -156,7 +158,6 @@ body {
     padding-left: 3px;
     margin-bottom:5px;
 }
-
 .titulo_juego:hover {
     color:#FFC045;
     font-style: inherit;
@@ -174,7 +175,8 @@ body {
 .descripcion_juego {
     padding-left: 5px;
     padding-right: 5px;
-    height: 120px;  
+    height: 120px;
+     
 }
 
 .imagen_juego {
@@ -229,13 +231,13 @@ body {
     color:black;
 }
 
+
 .trucos_noticias {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     margin: 5px;
     justify-content: space-between;
-    
 }
 
 aside {
@@ -255,7 +257,6 @@ aside {
     margin-bottom: 5%;
     margin-top:3%;
 }
-
 .apartado_trucos {
     border-bottom-color:white;
     border-bottom-style:double;
@@ -284,7 +285,7 @@ aside {
 
 #noticias {
     width: 66%;
-    text-align:center;    
+    text-align:center;  
 }
 
 #apartado_noticias {
@@ -359,7 +360,7 @@ aside {
     border-bottom-color: #FFC045;
     border-bottom-style:solid;
     border-bottom-width:10px;
-    height:40px; 
+    height:40px;  
 }
 
 .resumen_noticia {
@@ -427,7 +428,7 @@ aside {
     padding-bottom: 40px;
 }
 
-.ranking {
+#ranking {
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -564,7 +565,7 @@ aside {
     height:40px;
     color:#0A91AB;
     background-color: #FFC045;
-    border-radius:5px;    
+    border-radius:5px; 
 }
 
 .boton_mas_detalles {
@@ -572,7 +573,7 @@ aside {
     align-items: flex-end;
     justify-content: flex-end;
     margin-right:5px;
-    height: 140px;  
+    height: 140px; 
 }
 
 .mas_detalles {
@@ -680,9 +681,9 @@ aside {
 #div_detalle_videojuego_titulo {
     display:flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 30px;
-    height: 60px; 
+    height: 60px;   
 }
 
 #detalle_videojuego_titulo {
@@ -698,6 +699,8 @@ aside {
     border-color: #0A91AB;
     height: 750px;
     margin-bottom: 80px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #detalle_videojuego_datos {
@@ -705,6 +708,8 @@ aside {
     width: 21%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
     border-top-width: 0;
     border-color: #0A91AB;
     border-left-width: 0;
@@ -715,7 +720,9 @@ aside {
     width: 100%;
     height: 280px;
     border-top-left-radius: 17px;
-    overflow:hidden;   
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 5px;
+    overflow:hidden; 
 }
 
 #div_detalle_videojuego_info {
@@ -735,8 +742,7 @@ aside {
     border-bottom-left-radius: 17px;
     border-color: #0A91AB;
     border-width:0;
-    margin-top: 25px;
-    
+    margin-top: 25px; 
 }
 
 .detalle_videojuego_apartado {
@@ -754,7 +760,7 @@ aside {
     color:#FFC045
 }
 
-#detalle_videojuego_resena {
+#detalle_videojuego_resena { 
     width:79%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -778,4 +784,93 @@ aside {
 #videojuego_requisitos {
     display:flex;
     flex-direction: row;
+}
+
+/*Sección del CSS correspondiente a la página de contacto*/
+
+#formulario_contacto {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    height: 700px;
+    margin-bottom: 65px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#mapa_contacto {
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+#apartado_contacto {
+    color:#FFC045;
+    font-size:32px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+#mapa {
+    border-style: solid;
+    border-radius:30px;
+    border-color:#0A91AB;
+    overflow:hidden;
+    height:500px;
+}
+.metodo_contacto {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 50px;
+    line-height: 1.2;
+}
+
+.metodo_contacto_texto {
+    margin-left: 30px;
+}
+
+#formulario {
+    border-style:solid;
+    width: 500px;
+    height: 500px;
+    background-color: #a8e7f3;
+    line-height: 1.7;
+    border-radius: 30px;
+    border-color:#0A91AB;
+    margin-left:90px;
+    margin-top: 60px;
+}
+
+#titulo_formulario {
+    text-align: center;
+    margin-top: 2%;
+    color:#FFC045;
+    font-size:32px;
+}
+
+.campo_formulario {
+    margin-left:10px;
+}
+
+.campo_formulario_rellenar {
+    margin-left:10px;
+}
+
+#formulario_apellidos {
+    display: flex;
+    flex-direction: row;
+}
+
+#campo_formulario_comentario {
+    height: 100px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+#formulario_boton {
+    margin-left: 10px;
+    margin-top: 10px;
 }
