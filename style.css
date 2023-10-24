@@ -869,6 +869,8 @@ aside {
 
 #campo_formulario_comentario {
     margin-left: 10px;
+    resize: none;
+    width: 70%;
 }
 
 #formulario_boton {
